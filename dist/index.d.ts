@@ -8,5 +8,8 @@ declare const Errors: {
     readonly EMAIL_NOT_USED: 403;
     readonly BAD_RESET_CODE: 403;
     readonly USED_PASSWORD: 400;
+    readonly GAME_NOT_FOUND: 404;
+    readonly GAME_ACCOUNT_NOT_FOUND: 404;
+    readonly GAME_ALREADY_LINKED: 409;
 };
 export default Errors;
