@@ -1,12 +1,17 @@
 {
   "name": "error-texts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "publish": "tsc && git push origin main"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
