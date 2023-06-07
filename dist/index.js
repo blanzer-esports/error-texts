@@ -18,6 +18,8 @@ var Errors = {
     TEAM_NOT_FOUND: 404,
     INVITE_NOT_FOUND: 404,
     NOT_ENOUGH_BALANCE: 422,
-    TEAM_SELF_LEADER: 400
+    TEAM_SELF_LEADER: 400,
+    USER_NOT_FOUND: 404,
+    USER_SELF_TRANSFER: 400
 };
 exports.default = Errors;

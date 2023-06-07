@@ -17,5 +17,7 @@ declare const Errors: {
     readonly INVITE_NOT_FOUND: 404;
     readonly NOT_ENOUGH_BALANCE: 422;
     readonly TEAM_SELF_LEADER: 400;
+    readonly USER_NOT_FOUND: 404;
+    readonly USER_SELF_TRANSFER: 400;
 };
 export default Errors;
