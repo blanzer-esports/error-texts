@@ -11,5 +11,11 @@ declare const Errors: {
     readonly GAME_NOT_FOUND: 404;
     readonly GAME_ACCOUNT_NOT_FOUND: 404;
     readonly GAME_ALREADY_LINKED: 409;
+    readonly TEAM_EXISTS: 409;
+    readonly ALREADY_IN_TEAM: 409;
+    readonly TEAM_NOT_FOUND: 404;
+    readonly INVITE_NOT_FOUND: 404;
+    readonly NOT_ENOUGH_BALANCE: 422;
+    readonly TEAM_SELF_LEADER: 400;
 };
 export default Errors;
