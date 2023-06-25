@@ -23,5 +23,8 @@ var Errors = {
     USER_SELF_TRANSFER: 400,
     USER_ALREADY_VERIFIED: 409,
     BAD_REQUEST: 400,
+    NOT_TEAM_MEMBER: 400,
+    INVITE_LINK_NOT_FOUND: 404,
+    REQUEST_NOT_FOUND: 404,
 };
 exports.default = Errors;

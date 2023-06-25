@@ -21,5 +21,8 @@ declare const Errors: {
     readonly USER_SELF_TRANSFER: 400;
     readonly USER_ALREADY_VERIFIED: 409;
     readonly BAD_REQUEST: 400;
+    readonly NOT_TEAM_MEMBER: 400;
+    readonly INVITE_LINK_NOT_FOUND: 404;
+    readonly REQUEST_NOT_FOUND: 404;
 };
 export default Errors;
