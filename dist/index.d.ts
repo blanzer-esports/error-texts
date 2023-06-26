@@ -24,5 +24,6 @@ declare const Errors: {
     readonly NOT_TEAM_MEMBER: 400;
     readonly INVITE_LINK_NOT_FOUND: 404;
     readonly REQUEST_NOT_FOUND: 404;
+    readonly INVALID_FORMAT: 400;
 };
 export default Errors;

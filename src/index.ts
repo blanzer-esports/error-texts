@@ -24,6 +24,7 @@ const Errors = {
   NOT_TEAM_MEMBER: 400,
   INVITE_LINK_NOT_FOUND: 404,
   REQUEST_NOT_FOUND: 404,
+  INVALID_FORMAT: 400,
 } as const;
 
 export default Errors;
