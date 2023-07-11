@@ -29,5 +29,7 @@ declare const Errors: {
     readonly TOURNAMENT_ALREADY_STARTED: 403;
     readonly FULL_TOURNAMENT: 429;
     readonly PARTICIPANT_IS_BANNED: 401;
+    readonly PARTICIPANT_ALREADY_BANNED: 400;
+    readonly ALREADY_IN_TOURNAMENT: 400;
 };
 export default Errors;
