@@ -25,5 +25,9 @@ declare const Errors: {
     readonly INVITE_LINK_NOT_FOUND: 404;
     readonly REQUEST_NOT_FOUND: 404;
     readonly INVALID_FORMAT: 400;
+    readonly TOURNAMENT_NOT_FOUND: 404;
+    readonly TOURNAMENT_ALREADY_STARTED: 403;
+    readonly FULL_TOURNAMENT: 429;
+    readonly PARTICIPANT_IS_BANNED: 401;
 };
 export default Errors;
