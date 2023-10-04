@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var Errors = {
     UNAUTHORIZED: 401,
     REGISTER_EMAIL_USED: 409,
@@ -33,5 +33,15 @@ var Errors = {
     PARTICIPANT_IS_BANNED: 401,
     PARTICIPANT_ALREADY_BANNED: 400,
     ALREADY_IN_TOURNAMENT: 400,
+    MATCH_NOT_FOUND: 404,
+    USER_ALREADY_VOTED: 409,
+    BAD_FORMAT: 400,
+    ALREADY_IN_QUEUE: 409,
+    SERVER_ERROR: 500,
+    NOT_IN_QUEUE: 400,
+    PARTICIPANT_NOT_BANNED: 400,
+    NOTIFICATION_NOT_FOUND: 404,
+    MISSING_INTEGRATION_LINK: 404,
+    GAME_NOT_LINKED: 401
 };
-exports.default = Errors;
+exports["default"] = Errors;

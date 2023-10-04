@@ -31,5 +31,15 @@ declare const Errors: {
     readonly PARTICIPANT_IS_BANNED: 401;
     readonly PARTICIPANT_ALREADY_BANNED: 400;
     readonly ALREADY_IN_TOURNAMENT: 400;
+    readonly MATCH_NOT_FOUND: 404;
+    readonly USER_ALREADY_VOTED: 409;
+    readonly BAD_FORMAT: 400;
+    readonly ALREADY_IN_QUEUE: 409;
+    readonly SERVER_ERROR: 500;
+    readonly NOT_IN_QUEUE: 400;
+    readonly PARTICIPANT_NOT_BANNED: 400;
+    readonly NOTIFICATION_NOT_FOUND: 404;
+    readonly MISSING_INTEGRATION_LINK: 404;
+    readonly GAME_NOT_LINKED: 401;
 };
 export default Errors;
